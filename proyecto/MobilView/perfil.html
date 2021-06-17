@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Perfil</title>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+	<!-- ====== PopUpLogin ======-->
+	<section class="full-width PopUpLogin PopUpLogin-2">
+		<div class="full-width">
+		  	<a href="perfil.html"><i class="fa fa-user fa-fw" aria-hidden="true"></i> Tu perfil</a>
+		  	<a href="config.html"><i class="fa fa-cogs fa-fw" aria-hidden="true"></i> Configuración</a>
+		  	<div role="separator" class="divider"></div>
+		  	<a href="#!"><i class="fa fa-sign-out fa-fw" aria-hidden="true"></i> Cerrar sesión</a>
+		</div>
+	</section>
+
+	<!-- ====== Contenido de pagina ======-->
+	<section class="full-width section">
+		<div class="container">
+			<div class="row">
+				
+				</div>
+				<div class="col-xs-12 col-sm-8 col-md-9">
+					
+					<!-- Contenido-->
+					<div class="full-width" style="padding: 15px; border: 1px solid #E1E1E1;">
+						<form action="">
+							<p class="text-muted text-center">Seleciona una image</p>
+							<div class="form-group">
+							    <div class="custom-input-file">
+							    	<input type="file" size="1" class="input-file" />
+								    <i class="fa fa-picture-o" aria-hidden="true"></i>
+								</div>
+								<br>
+								<p  class="text-muted text-center archivo">Archivo...</p>
+							</div>
+							<br><br><br>
+							<div class="form-group">
+								<label>Usuario</label>
+								<input type="text" placeholder="Nombre" class="form-control">
+							</div>
+							
+							
+							<div class="form-group">
+								<label>Contraseña</label>
+								<a href="#!" class="btn btn-default btn-xs pull-right btn-dropdown-conatiner" data-drop-cont=".perfil-password">
+									Mostrar/Ocultar <i class="fa fa-sort" aria-hidden="true"></i>
+								</a>
+								<div class="full-width perfil-password">
+									<input type="password" placeholder="Contraseña" class="form-control">
+									<br>
+									<input type="password" placeholder="Nueva Contraseña" class="form-control">
+									<br>
+									<input type="password" placeholder="Confirmar Contraseña" class="form-control">
+								</div>
+							</div>
+							<p class="text-center">
+								<button class="btn btn-danger">GUARDAR</button>
+							</p>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')</script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
